@@ -43,6 +43,15 @@ class HomePage extends StatelessWidget {
                 'Disha Creations established in April 2006. Disha Creations is a premier Web Services Company for website and mobile app development on a global scale. Our business model focuses on having long-term strategic relationships with clients and related to improve clients business and revenue. Our team work after research and analysis. We work with agile methodology so you will get best result.',
               ),
             ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => StrengthsPage()),
+                );
+              },
+              child: Text('Go to Strengths Page'),
+            ),
 
             // Our Strengths Section
             Padding(
@@ -93,6 +102,20 @@ class HomePage extends StatelessWidget {
             ),
           ],
         ),
+      ),
+    );
+  }
+}
+
+class StrengthsPage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Strengths Page'),
+      ),
+      body: Center(
+        child: Text('This is the Strengths Page'),
       ),
     );
   }

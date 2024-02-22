@@ -1,4 +1,4 @@
-import 'package:companyportfolio/MainComponents/LandingPage.dart';
+import 'package:companyportfolio/MainComponents/HomeS1.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 void main() {
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomePage(),
+      home: HomeP1(),
       // home: SwipingPage(),
     );
   }
