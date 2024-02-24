@@ -269,7 +269,7 @@ class StrengthsPage3 extends StatelessWidget {
                     'Assets/CompanyLogo/Disha Creations-logos_white.png'),
               ),
             ),
-            // Contact Details Section
+
             Padding(
               padding: const EdgeInsets.all(16.0),
               child: Text(
