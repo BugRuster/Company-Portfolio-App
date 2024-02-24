@@ -19,29 +19,48 @@ class HomeP1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.black,
-        title: Text('Welcome to', style: TextStyle(color: Colors.white),),
+        backgroundColor: Color(0xFFAFCBFF),
+        title: Text(
+          'Welcome to',
+          style: TextStyle(
+            color: Colors.black,
+            fontSize: 26,
+          ),
+        ),
       ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Container(child: Image(image: AssetImage('Assets/CompanyLogo/Disha Creations-logos_transparent.png')),),
-            SizedBox(height: 20),
-            ElevatedButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => HomePage()),
-                );
-              },
-              style: ElevatedButton.styleFrom(
-                padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
-                backgroundColor: Colors.blue,
+      body: Container(
+        // Use Container to set background color
+        color: Color(0xFFAFCBFF), // Set background color to black
+        child: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Container(
+                child: Image(
+                  image: AssetImage(
+                      'Assets/CompanyLogo/Disha Creations-logos_white.png'),
+                ),
               ),
-              child: Text("Let's Go", style: TextStyle(fontSize: 18)),
-            ),
-          ],
+              SizedBox(height: 20),
+              ElevatedButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => HomePage()),
+                  );
+                },
+                style: ElevatedButton.styleFrom(
+                  padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+                  backgroundColor: Color(0xFFAFCBFF),
+                ),
+                child: Text("Let's Go",
+                    style: TextStyle(
+                      fontSize: 18,
+                      color: Colors.black,
+                    )),
+              ),
+            ],
+          ),
         ),
       ),
     );
