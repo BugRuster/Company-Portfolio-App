@@ -54,15 +54,15 @@ Feel free to customize the app to suit your specific needs or contribute to its 
 
 ## Screenshots
 
-![Screenshot 1](/Screenshots/S1.png | width=300)
+![Screenshot 1](/Screenshots/S1.png)
 
-![Screenshot 2](/Screenshots/S2.png | width=300)
+![Screenshot 2](/Screenshots/S2.png)
 
-![Screenshot 3](/Screenshots/S3.png | width=300)
+![Screenshot 3](/Screenshots/S3.png)
 
-![Screenshot 4](/Screenshots/S4.png | width=300)
+![Screenshot 4](/Screenshots/S4.png)
 
-![Screenshot 5](/Screenshots/S5.png | width=300)
+![Screenshot 5](/Screenshots/S5.png)
 
 ## Contributing
 
