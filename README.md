@@ -52,18 +52,6 @@ Once the app is running, you can:
 
 Feel free to customize the app to suit your specific needs or contribute to its development!
 
-## Screenshots
-
-![Screenshot 1](/Screenshots/S1.png)
-
-![Screenshot 2](/Screenshots/S2.png)
-
-![Screenshot 3](/Screenshots/S3.png)
-
-![Screenshot 4](/Screenshots/S4.png)
-
-![Screenshot 5](/Screenshots/S5.png)
-
 ## Contributing
 
 If you would like to contribute to the development of the Company Portfolio App, follow these steps:
