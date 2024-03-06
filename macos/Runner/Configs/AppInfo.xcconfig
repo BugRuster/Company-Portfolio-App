@@ -8,7 +8,7 @@
 PRODUCT_NAME = companyportfolio
 
 // The application's bundle identifier
-PRODUCT_BUNDLE_IDENTIFIER = com.example.companyportfolio
+PRODUCT_BUNDLE_IDENTIFIER = com.dishacreations.portfolio
 
 // The copyright displayed in application information
 PRODUCT_COPYRIGHT = Copyright © 2024 com.example. All rights reserved.
