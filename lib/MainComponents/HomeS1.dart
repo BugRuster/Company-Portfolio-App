@@ -57,7 +57,8 @@ class HomeP1 extends StatelessWidget {
                     style: TextStyle(
                       fontSize: 18,
                       color: Colors.black,
-                    )),
+                      //this app is developed by @BugRuster
+                )),
               ),
             ],
           ),
